@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    // 서버 실행 시키기용 톰켓
+    // 톰켓
     implementation("org.apache.tomcat.embed:tomcat-embed-core:10.1.7")
     implementation("org.apache.tomcat.embed:tomcat-embed-jasper:10.1.7")
     // 서블릿
