@@ -10,4 +10,6 @@ fun main() {
         File("./${webAppDirection}").absolutePath)
     tomcat.start()
     tomcat.server.await()
+
+
 }
